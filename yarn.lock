@@ -66,6 +66,10 @@
     normalize-path "^2.0.1"
     through2 "^2.0.3"
 
+"@types/dompurify@0.0.29":
+  version "0.0.29"
+  resolved "https://registry.yarnpkg.com/@types/dompurify/-/dompurify-0.0.29.tgz#3a774b80a709848e560fbf9ea62d5f716e79b6f2"
+
 "@types/jasmine@2.5.40":
   version "2.5.40"
   resolved "https://registry.yarnpkg.com/@types/jasmine/-/jasmine-2.5.40.tgz#875c7ae739dcab1342794f51231c4aadcda6eb79"
@@ -864,13 +868,13 @@ cli-table@^0.3.1:
   dependencies:
     colors "1.0.3"
 
-clipboard@^1.5.5:
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/clipboard/-/clipboard-1.6.1.tgz#65c5b654812466b0faab82dc6ba0f1d2f8e4be53"
+clipboard@^2.0.0:
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/clipboard/-/clipboard-2.0.6.tgz#52921296eec0fdf77ead1749421b21c968647376"
   dependencies:
-    good-listener "^1.2.0"
+    good-listener "^1.2.2"
     select "^1.1.2"
-    tiny-emitter "^1.0.0"
+    tiny-emitter "^2.0.0"
 
 cliui@^2.1.0:
   version "2.1.0"
@@ -1344,6 +1348,10 @@ domhandler@2.3, domhandler@^2.3.0:
   resolved "https://registry.yarnpkg.com/domhandler/-/domhandler-2.3.0.tgz#2de59a0822d5027fabff6f032c2b25a2a8abe738"
   dependencies:
     domelementtype "1"
+
+dompurify@^0.9.0:
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/dompurify/-/dompurify-0.9.0.tgz#470f9dd95657a644a84be1ed950677946259d055"
 
 domutils@1.5, domutils@1.5.1, domutils@^1.5.1:
   version "1.5.1"
@@ -2132,7 +2140,7 @@ glogg@^1.0.0:
   dependencies:
     sparkles "^1.0.0"
 
-good-listener@^1.2.0:
+good-listener@^1.2.2:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/good-listener/-/good-listener-1.2.2.tgz#d53b30cdf9313dffb7dc9a0d477096aa6d145c50"
   dependencies:
@@ -4089,11 +4097,11 @@ pretty-hrtime@^1.0.0:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/pretty-hrtime/-/pretty-hrtime-1.0.3.tgz#b7e3ea42435a4c9b2759d99e0f201eb195802ee1"
 
-prismjs@^1.5.1:
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.6.0.tgz#118d95fb7a66dba2272e343b345f5236659db365"
+prismjs@^1.23.0:
+  version "1.23.0"
+  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.23.0.tgz#d3b3967f7d72440690497652a9d40ff046067f33"
   optionalDependencies:
-    clipboard "^1.5.5"
+    clipboard "^2.0.0"
 
 private@^0.1.6, private@~0.1.5:
   version "0.1.7"
@@ -5085,9 +5093,9 @@ timers-ext@0.1:
     es5-ext "~0.10.14"
     next-tick "1"
 
-tiny-emitter@^1.0.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/tiny-emitter/-/tiny-emitter-1.2.0.tgz#6dc845052cb08ebefc1874723b58f24a648c3b6f"
+tiny-emitter@^2.0.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/tiny-emitter/-/tiny-emitter-2.1.0.tgz#1d1a56edfc51c43e863cbb5382a72330e3555423"
 
 tmp@0.0.31, tmp@0.0.x:
   version "0.0.31"
